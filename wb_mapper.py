@@ -176,7 +176,7 @@ try:
             var["game"] = currentValue
 
         elif currentArgument in ("-p", "--players"):
-            # Get the g or l sign and the player number
+            # Get the G or L sign and the player number
             sign = currentValue[0]
 
             if sign == "G":
@@ -184,7 +184,7 @@ try:
             elif sign == "L":
                 sign = False
             else:
-                print("\n- [ERROR]: Unknown player operater! (g | l)\n")
+                print("\n- [ERROR]: Unknown player operater! (G | L)\n")
                 exit(1)
 
             # If a number is not inputted
