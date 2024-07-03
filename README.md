@@ -83,6 +83,7 @@ Mode, Map, and Region data is case insensitive as long as there is a comma
 
 `python3 wb_mapper.py -r "europe, usa, usa_west, asia"` `python3 wb_mapper.py -r Europe,USA,USA_west,asia` `python3 wb_mapper.py --region=EUrope`
 
-Future updates:
-* Play a sound to notify the user of a match
-* A browser version of the tool
+# Updates
+
+* Play a sound to notify the user of a match    [TODO]
+* A browser version of the tool                 [TODO]
