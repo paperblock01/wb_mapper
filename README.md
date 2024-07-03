@@ -34,6 +34,9 @@ Browser version coming soon.
 
 # Usage
 ### NOTE: Servers with no human players are NOT detected
+
+Running with no arguments will scan every server in the Classic game mode
+
 ```
 -h, --help              Display this help message
 
