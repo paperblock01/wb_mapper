@@ -37,8 +37,13 @@ Browser version coming soon.
 
 Running with no arguments will scan every server in the Classic game mode
 
+To stop the program, press `CTRL` + `C` or `Command` + `C` if you are on a Mac
+
 ```
 -h, --help              Display this help message
+
+-f, --forever           Include this argument and the program will map servers until
+                        the user stops it manually.
 
 -g, --game=             Specify the game. Default is classic.
 
@@ -82,9 +87,6 @@ Mode, Map, and Region data is case insensitive as long as there is a comma
 `python3 wb_mapper.py -a "Frontier, TRIBUTE"` `python3 wb_mapper.py -a Frontier,Tribute` `python3 wb_mapper.py --map="Frontier, Tribute"`
 
 `python3 wb_mapper.py -r "europe, usa, usa_west, asia"` `python3 wb_mapper.py -r Europe,USA,USA_west,asia` `python3 wb_mapper.py --region=EUrope`
-
-
-To stop the program, press `CTRL` + `C` or `Command` + `C` if you are on a Mac
 
 
 # Updates
