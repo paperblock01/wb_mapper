@@ -45,6 +45,8 @@ To stop the program, press `CTRL` + `C` or `Command` + `C` if you are on a Mac
 -f, --forever           Include this argument and the program will map servers until
                         the user stops it manually.
 
+-s, --silent            Do not play a notification when a match is found.
+
 -g, --game=             Specify the game. Default is classic.
 
     classic
@@ -91,5 +93,5 @@ Mode, Map, and Region data is case insensitive as long as there is a comma
 
 # Updates
 
-* Play a sound to notify the user of a match    [TODO]
+* Play a sound to notify the user of a match    [DONE]
 * A browser version of the tool                 [TODO]
