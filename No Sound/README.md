@@ -9,6 +9,13 @@ Python Modules: `requests`, `time`, `getopt`, `sys`
 `python3 -m pip install requests time getopt sys`
 
 # Install
+
+To Download:
+
+* Click the file.
+
+* Press the download button on the right that says "Download raw file"
+
 ### Windows:
 
 Install `python3` for windows: [here](https://www.python.org/downloads/windows/)
