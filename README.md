@@ -5,9 +5,9 @@ A program to search the War Brokers server list for servers that match a specifi
 `python3`
 
 Python Modules:
-`requests`, `time`, `getopt`, `sys`
+`requests`, `time`, `getopt`, `sys`, `base64`, `tempfile`, `playsound`
 
-`python3 -m pip install requests time getopt sys`
+`python3 -m pip install requests time getopt sys base64 tempfile playsound`
 
 # Install
 ### Windows:
@@ -77,6 +77,7 @@ To stop the program, press `CTRL` + `C` or `Command` + `C` if you are on a Mac
 ```
 
 Example:
+`python3 wb_mapper.py -f -s`
 
 `python3 wb_mapper.py -g 4v4` `python3 wb_mapper.py --game=4v4`
 
