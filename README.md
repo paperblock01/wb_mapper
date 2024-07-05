@@ -12,6 +12,13 @@ Python Modules:
 `python3 -m pip install requests time getopt sys base64 tempfile playsound`
 
 # Install
+
+To Download:
+
+* Click the file.
+
+* Press the download button on the right that says "Download raw file"
+
 ### Windows:
 
 Install `python3` for windows: [here](https://www.python.org/downloads/windows/)
