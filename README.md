@@ -1,5 +1,7 @@
 # wb_mapper
-A program to search the War Brokers server list for servers that match a specified number of players, game mode, map, or region.
+(With Sound)
+
+A program to search the War Brokers server list for servers that match a specified number of players, game mode, map, or region. This version includes a sound notification when matches are found. Extra python modules are required for it to work. For a version without the sound feature, go to the `No Sound` folder.
 
 # Requirements
 `python3`
@@ -18,15 +20,19 @@ Download the `wb_mapper.py` file
 
 Open `cmd.exe`
 
-`cd` to the folder you downloaded it
+`cd` to the folder you downloaded it to
 
-execute `python3 wb_mapper.py`
+Execute `python3 wb_mapper.py`
 
 ### Linux and Mac:
 
 Download the `wb_mapper.py` file
 
-Open the terminal and execute `python3 wb_mapper.py`
+Open the terminal
+
+`cd` to the directory you downloaded it to
+
+Execute `python3 wb_mapper.py`
 
 ### ChromeOS:
 
@@ -76,14 +82,15 @@ To stop the program, press `CTRL` + `C` or `Command` + `C` if you are on a Mac
                         Only regions in the chosen game are accepted.
 ```
 
-Example:
+Examples:
+
 `python3 wb_mapper.py -f -s`
 
 `python3 wb_mapper.py -g 4v4` `python3 wb_mapper.py --game=4v4`
 
 `python3 wb_mapper.py -p G8` `python3 wb_mapper.py --players=L8`
 
-Mode, Map, and Region data is case insensitive as long as there is a comma
+* Mode, Map, and Region data is case insensitive as long as there is a comma,
 
 `python3 wb_mapper.py -m "g g,Ml, B    D"` `python3 wb_mapper.py -m GG,ml,bd` `python3 wb_mapper.py --mode="gg, ml, bd"`
 
@@ -94,5 +101,5 @@ Mode, Map, and Region data is case insensitive as long as there is a comma
 
 # Updates
 
-* Play a sound to notify the user of a match    [DONE]
-* A browser version of the tool                 [TODO]
+* [DONE] Play a sound to notify the user of a match
+* [TODO] A browser version of the tool
