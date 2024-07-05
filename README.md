@@ -90,7 +90,7 @@ Examples:
 
 `python3 wb_mapper.py -p G8` `python3 wb_mapper.py --players=L8`
 
-* Mode, Map, and Region data is case insensitive as long as there is a comma,
+* Mode, Map, and Region data is case insensitive as long as there is a comma:
 
 `python3 wb_mapper.py -m "g g,Ml, B    D"` `python3 wb_mapper.py -m GG,ml,bd` `python3 wb_mapper.py --mode="gg, ml, bd"`
 
