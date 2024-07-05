@@ -79,6 +79,8 @@ var = {
     "mode": "",
     "map": "",
     "location": "",
+    "finite": True,
+    "playalert": True,
 }
 
 # The help message
@@ -175,11 +177,6 @@ python3 {sys.argv[0]} -g Classic -p G10 -m gg -a 'Area 15 Bunker' -r 'usa, usa_w
 
 # Handle user input
 
-# Variable to determine if the program stops when matches are found
-finite = True
-# Varuable to determine if a sound alert is played
-playalert = True
-
 # Code stolen from https://www.geeksforgeeks.org/command-line-arguments-in-python/
 # Remove the first argument from the list of arguments because it is the file name
 argumentList = sys.argv[1:]
@@ -201,10 +198,10 @@ try:
             exit(0)
         elif currentArgument in ("-f", "--forever"):
             # When the program should not stop after a match is found
-            finite = False
+            var["finite"] = False
         elif currentArgument in ("-s", "--silent"):
             # No sound should play
-            playalert = False
+            var["playalert"] = False
         elif currentArgument in ("-g", "--game"):
             var["game"] = currentValue
 
@@ -533,11 +530,11 @@ try:
             print(f"Matches Found!\n")
 
             # If playalert is True, play a notification
-            if playalert:
+            if var["playalert"]:
                 notification()
 
             # If finite is True and the program should not run forever
-            if finite:
+            if var["finite"]:
                 exit(0)
 
         time.sleep(30)
