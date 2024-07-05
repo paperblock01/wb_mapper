@@ -19,7 +19,7 @@ Open `cmd.exe`
 
 `cd` to the folder you downloaded it to
 
-execute `python3 wb_mapper.py`
+Execute `python3 wb_mapper.py`
 
 ### Linux and Mac:
 
@@ -29,7 +29,7 @@ Open the terminal
 
 `cd` to the directory you downloaded it to
 
-execute `python3 wb_mapper.py`
+Execute `python3 wb_mapper.py`
 
 ### ChromeOS:
 
@@ -78,13 +78,14 @@ To stop the program, press `CTRL` + `C` or `Command` + `C` if you are on a Mac
 ```
 
 Example:
+
 `python3 wb_mapper.py -f`
 
 `python3 wb_mapper.py -g 4v4` `python3 wb_mapper.py --game=4v4`
 
 `python3 wb_mapper.py -p G8` `python3 wb_mapper.py --players=L8`
 
-Mode, Map, and Region data is case insensitive as long as there is a comma
+* Mode, Map, and Region data is case insensitive as long as there is a comma:
 
 `python3 wb_mapper.py -m "g g,Ml, B    D"` `python3 wb_mapper.py -m GG,ml,bd` `python3 wb_mapper.py --mode="gg, ml, bd"`
 
