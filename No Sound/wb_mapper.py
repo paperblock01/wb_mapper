@@ -465,8 +465,8 @@ def output(server_data, index, location):
 
 # Takes a list outputted from the set_data function
 def game_check(set_data):
-    # check is a variable that is set to True when a match is found
-    check = False
+    # check is a variable that describes the number of matching servers
+    check = 0
 
     # Loop through all the set regions
     for i in set_data[4]:
@@ -490,7 +490,8 @@ def game_check(set_data):
             # If all values in the check list are 1 and true
             if player[j] and mode[j] and map[j]:
                 output(server_data,j,i)
-                check = True
+                # Add a number for a match
+                check += 1
             # Otherwise check the next server
             else:
                 continue
@@ -503,9 +504,16 @@ settings = set_data(var["game"],var["players"],var["mode"],var["map"],var["locat
 
 try:
     while True:
+        # Number of matching servers
+        check = game_check(settings)
+
         # If matches are found, stop the loop
-        if game_check(settings):
-            print(f"Matches Found!\n")
+        if check:
+            print(f"\nFound {check} Match{"!" if check == 1 else "es!"}\n")
+
+            # If playalert is True, play a notification
+            if var["playalert"]:
+                notification()
 
             # If finite is True and the program should not run forever
             if var["finite"]:
