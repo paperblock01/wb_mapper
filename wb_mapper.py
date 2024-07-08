@@ -531,7 +531,7 @@ try:
 
         # If matches are found, stop the loop
         if check:
-            print(f"\nFound {check} Match{"!" if check == 1 else "es!"}\n")
+            print(f"- Found {check} Match{"!" if check == 1 else "es!"}\n")
 
             # If playalert is True, play a notification
             if var["playalert"]:
