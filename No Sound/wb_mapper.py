@@ -59,7 +59,7 @@ Maps = {
     "pyramid": 36,
     "quarry": 27,
     "sniperalley": 35,
-    "snipers only": 41,
+    "snipersonly": 41,
     "threelane": 34,
     "towerofpower": 33,
 }
