@@ -22,7 +22,7 @@ Modes_long = {
     "Missile Launch": 138,
     "Bomb Disposal": 275,
     "Capture Points": 135,
-    "Vechicle Escort": 136,
+    "Vehicle Escort": 136,
     "Gun Game": 15,
 }
 Maps = {
