@@ -3,6 +3,8 @@
 
 A program to search the War Brokers server list for servers that match a specified number of players, game mode, map, or region. This version includes a sound notification when matches are found. Extra python modules are required for it to work. For a version without the sound feature, go to the `No Sound` folder.
 
+Browser Version [here](https://github.com/paperblock01/War-Brokers-Mapper-for-Browser).
+
 # Requirements
 `python3`
 
@@ -43,7 +45,7 @@ Execute `python3 wb_mapper.py`
 
 ### ChromeOS:
 
-Browser version coming soon.
+Browser Version [here](https://github.com/paperblock01/War-Brokers-Mapper-for-Browser).
 
 # Usage
 ### NOTE: Servers with no human players are NOT detected
@@ -109,4 +111,4 @@ Examples:
 # Updates
 
 * [DONE] Play a sound to notify the user of a match
-* [TODO] A browser version of the tool
+* [DONE] A browser version of the tool
