@@ -32,7 +32,7 @@ Maps = {
     "flooded": 4,
     "frontier": 31,
     "goldmine": 49,
-    "goldminev2": 47,
+    "goldminev2": 49,
     "goldmineold": 47,
     "heist": 32,
     "kitchen": 29,
