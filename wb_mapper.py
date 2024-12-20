@@ -35,6 +35,7 @@ Maps = {
     "flooded": 4,
     "frontier": 31,
     "goldmine": 47,
+    "goldminev2": 49,
     "heist": 32,
     "kitchen": 29,
     "moonbase": 20,
